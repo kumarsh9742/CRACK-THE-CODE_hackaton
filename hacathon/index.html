@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <table>
+<body class="maindiv">
+      <div class="para">
+        <h1 class="h1">INSTRUCTION</h1>
+        <p >Please Guess the nummbers<br> 1)Orange means number is present in any one field<br>
+            2)red means number is not present<br> 3)green means you have seleted correct number
+            <br>4) to start please press start.
+            <br>5) Once Guess your numbers please submit it to see results.
+        </p>
+    </div>
+        
+    <table class="table">
         <tr>
           <th>randnumber1</th>
           <th>randNumber2</th>
@@ -23,32 +33,38 @@
     <br>
     <br>
     <br>
-    <table> 
+    <script src="script1.js"></script>
+      <div class="last">
+        <button class="input1Circle12" onclick="submit()">Submit</button>
+        <button class="input1Circle12" onclick="generate_table()" >START</button>
+        <label for="Result">Results</label>
+        <input type="text" id="Result">
+    </div>
+    <!-- <table class="table"> 
+        
         <tr>
-            <th>usernumber1</th>
-            <th>userNumber2</th>
-            <th>usernumber3</th>
-            <th>usernumber4</th>
-          </tr>
-        <tr>
-          <td><div class="input1Circle1" id="inputValu1"></div></td>
-          <td><div class="input1Circle2" id="inputValu2"></div></td>
-          <td><div class="input1Circle3" id="inputValu3"></div></td>
-          <td><div class="input1Circle4" id="inputValu4"></div></td>
+            <td><input class="input1Circle1" type="text" id="input0Value51" maxlength="1"></td>
+            <td><input class="input1Circle1" type="text" id="input0Value52" maxlength="1"></td>
+            <td><input class="input1Circle1" type="text" id="input0Value53" maxlength="1"></td>
+            <td><input class="input1Circle1" type="text" id="input0Value54" maxlength="1"></td>
+            
         </tr>
+        <tr>
+            <td><input class="input1Circle1" type="text" id="input1Value51" maxlength="1"></td>
+            <td><input class="input1Circle1" type="text" id="input1Value52" maxlength="1"></td>
+            <td><input class="input1Circle1" type="text" id="input1Value53" maxlength="1"></td>
+            <td><input class="input1Circle1" type="text" id="input1Value54" maxlength="1"></td>
+            
+        </tr> -->
        
 
    </table>
 
- 
- 
- 
- 
-
- <span class="design" id="number"></span>
+   
 
 
-<!-- <script src="script.js"></script> -->
-<script src="script1.js"></script>
+
+
 </body>
 </html>
+<!-- onclick="generate_table()" -->
