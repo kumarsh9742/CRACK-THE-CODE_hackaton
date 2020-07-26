@@ -6,15 +6,15 @@ var k = 'randNum';
         for(i = 1; i < 5; i++) { 
             eval('var ' + k + i + '= ' + Math.floor((Math.random() * 9) + 1) + ';'); 
         } 
-        console.log("value1=" + randNum1); 
-        console.log("value2=" + randNum2); 
-        console.log("value3=" + randNum3); 
-        console.log("value4=" + randNum4);
+        // console.log("value1=" + randNum1); 
+        // console.log("value2=" + randNum2); 
+        // console.log("value3=" + randNum3); 
+        // console.log("value4=" + randNum4);
 
-        document.getElementById("domrandCircle1").innerText = randNum1;
-        document.getElementById("domrandCircle2").innerText = randNum2;
-        document.getElementById("domrandCircle3").innerText = randNum3;
-        document.getElementById("domrandCircle4").innerText = randNum4;
+        // document.getElementById("domrandCircle1").innerText = randNum1;
+        // document.getElementById("domrandCircle2").innerText = randNum2;
+        // document.getElementById("domrandCircle3").innerText = randNum3;
+        // document.getElementById("domrandCircle4").innerText = randNum4;
         const randomArr = [randNum1, randNum2, randNum3, randNum4];
         var z=0;
         function submit(){
